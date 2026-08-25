@@ -120,7 +120,7 @@
   .meal-description { margin: 6px 0; color: #475547; }
   .metrics { display: flex; gap: 24px; flex-wrap: wrap; }
   .metrics p { margin: 6px 0 0; }
-  .metrics span { display: block; font-size: 24px; font-weight: 700; color: #2e7d32; }
+  .metrics span { display: block; font-size: 24px; font-weight: 700; color: #2cd1ff; }
   .metrics small { color: var(--muted); }
   .actions { justify-self: end; display: grid; grid-template-columns: repeat(4, auto); align-items: center; gap: 6px; font-size: 24px; }
   .like-btn, .comment-btn { background: transparent; border: 0; cursor: pointer; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
