@@ -1,9 +1,9 @@
 :root {
-    --dark: #1f3d2b;
+    --dark: #671874;
     --white: #ffffff;
-    --active: #43a047;
+    --active: #daff09;
     --bg: #eef5ed;
-    --danger: #cf3030;
+    --danger: #2c0303;
     --muted: #6b7d6c;
   }
   
@@ -15,7 +15,7 @@
   body {
      margin: 0;
       background: var(--bg);
-       color: #1d271d;
+       color: #000000;
        }
   
   .app { 
