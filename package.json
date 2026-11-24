@@ -4,11 +4,11 @@
     "description": "Projeto NutriMais sem banco de dados, com API local e localStorage.",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js",
-      "dev": "node server.js"
+        "start": "node server.js",
+        "dev": "node server.js"
     },
     "dependencies": {
-      "cors": "^2.8.5",
-      "express": "^4.19.2"
+        "cors": "^2.8.6",
+        "express": "^4.22.3"
     }
-  }
+}

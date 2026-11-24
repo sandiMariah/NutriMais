@@ -758,16 +758,19 @@ function bindEvents() {
 async function init() {
   state.user = loadSavedUser();
 
-  await loadInitialMeals();
-
   bindEvents();
 
   if (state.user) applyLoggedState();
   else applyGuestState();
 
+  try {
+    await loadInitialMeals();
+  } catch (error) {
+    console.error('Não consegui carregar as refeições:', error);
+  }
+
   await Promise.all([loadCompany(), loadMeals()]);
 }
-
 
 /*
   Executa a aplicação.
